@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: var(--sh);
+    font-weight: 400;
+}
+
+body {
+    background: var(--bg);
+    min-width: 320px;
+    color: var(--black);
+}
+
+:root {
+    --sh: "Share Tech Mono", sans-serif;
+    --bg: #F9F8F4;
+    --black: #242424;
+    --ee: #EEEEEE;
+    --gray: #6C6C6C;
+}
+
+.container {
+    max-width: 1710px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.discount__persentage {
+    font-family: var(--sh);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--bg);
+    background: var(--black);
+    padding: 17px 41px 16px 40px;
+    max-width: 120px;
+    width: 100%;
+}
+
+.shop__card-desc_title {
+    font-family: var(--sh);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--bg);
+    margin-bottom: 20px;
+}
+
+.shop__card-desc_size {
+    font-family: var(--sh);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--bg);
+    margin-bottom: 10px;
+}
+
+.shop__card-desc_color {
+    font-family: var(--sh);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--bg);
+    margin-bottom: 40px;
+}
+
+.shop__card-desc_title2 {
+    font-family: var(--sh);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--bg);
+}
