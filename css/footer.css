@@ -1,42 +1,58 @@
 .third {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .svg {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 40px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
 }
 
 .second-list_link {
-    font-family: var(--sh);
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--black);
-
+  font-family: var(--sh);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--black);
 }
 
 .footer__list {
-    display: flex;
-    align-items: center;
-    gap: 236px;
+  display: flex;
+  align-items: center;
+  gap: 236px;
 }
 
 .footer__wrap {
-    display: flex;
-    gap: 585px;
-    padding: 137px 108px 137px 108px;
-    border: 2px solid var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 500px;
+  padding: 137px 50px;
+  border: 2px solid var(--black);
 }
 
 .footer__list-item_link {
-    font-family: var(--sh);
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--black);
+  font-family: var(--sh);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--black);
 }
 
+@media screen and (max-width: 952px) {
+    .footer__list{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer__wrap {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .third{
+        gap: 5x;
+    }
+}

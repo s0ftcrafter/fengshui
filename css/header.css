@@ -98,3 +98,18 @@
 .banner__desc-link:hover {
     background: #212121;
 }
+
+
+@media screen and (max-width:952px){
+    .header__wrap{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:758px){
+    .header__nav-list{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
