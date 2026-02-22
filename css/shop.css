@@ -196,7 +196,7 @@
   .shop__card,
   .shop__card2,
   .shop__card3 {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
   }
 }
