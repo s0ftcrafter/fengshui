@@ -192,11 +192,8 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-  .shop__card{
-    max-width: 500px;
-    width: 100%;
-  }
+@media screen and (max-width: 478px) {
+  .shop__card,
   .shop__card2,
   .shop__card3 {
     max-width: 500px;
